@@ -53,8 +53,13 @@ body{
         background-color: lightseagreen;
         top: 0;
     }
+    50% {
+        left: 65%;
+        background-color: lightgreen;
+        top: 0;
+    }
     100% {
-        left: 60%;
+        left: 65%;
         background-color: lightseagreen;
         top: 50%;
     }
