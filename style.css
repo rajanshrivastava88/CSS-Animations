@@ -32,13 +32,30 @@ body{
      }
 } */
 
-@keyframes myanimation_tutorial{
+/* @keyframes myanimation_tutorial{
     from {
         left: 0;
         background-color: lightseagreen;
+        top: 0;
     }
     to {
         left: 70%;
         background-color: salmon;
+        top: 60%;
+    }
+} */
+
+
+
+@keyframes myanimation_tutorial{
+    0% {
+        left: 0;
+        background-color: lightseagreen;
+        top: 0;
+    }
+    100% {
+        left: 60%;
+        background-color: lightseagreen;
+        top: 50%;
     }
 }
