@@ -10,13 +10,25 @@ body{
     position: absolute;
     animation-name: move;
     animation-duration: 2s;
+    animation-delay: 1s;
 }
 
-@keyframes move {
+/* @keyframes move {
      from {
         left: 0;
      }
      to{
         left: 60%;
      }
+} */
+
+@keyframes myanimation_tutorial{
+    from {
+        left: 0;
+        background-color: lightseagreen;
+    }
+    to {
+        left: 70%;
+        background-color: salmon;
+    }
 }
