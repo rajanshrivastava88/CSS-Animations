@@ -3,12 +3,22 @@ body{
     width: 100%;
 }
 
-#box {
+/* #box {
     height: 200px;
     width: 200px;
     background-color: lightseagreen;
     position: absolute;
     animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+} */
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+    position: absolute;
+    animation-name: myanimation_tutorial;
     animation-duration: 2s;
     animation-delay: 1s;
 }
