@@ -24,6 +24,10 @@ body {
     animation-fill-mode: forwards; 
     /* animation-fill-mode: backwards; This will make the animation go back to its original state after it ends */
     /* animation-fill-mode: both; This will make the animation go back to its original state after it ends and also apply the styles at the end of the animation */
+
+    /* animation-iteration-count: infinite; */
+    /* animation-iteration-count: 3; This will make the animation run 3 times */
+    /* animation-iteration-count: infinite; This will make the animation run infinitely */
 }
 
 /* @keyframes move {
