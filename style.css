@@ -22,6 +22,8 @@ body {
     animation-duration: 2s;
     animation-delay: 1s;
     animation-fill-mode: forwards; 
+    /* animation-fill-mode: backwards; This will make the animation go back to its original state after it ends */
+    /* animation-fill-mode: both; This will make the animation go back to its original state after it ends and also apply the styles at the end of the animation */
 }
 
 /* @keyframes move {
