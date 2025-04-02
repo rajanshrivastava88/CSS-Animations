@@ -1,4 +1,4 @@
-body{
+body {
     height: 100%;
     width: 100%;
 }
@@ -47,17 +47,19 @@ body{
 
 
 
-@keyframes myanimation_tutorial{
+@keyframes myanimation_tutorial {
     0% {
         left: 0;
         background-color: lightseagreen;
         top: 0;
     }
+
     50% {
         left: 65%;
         background-color: lightgreen;
         top: 0;
     }
+
     100% {
         left: 65%;
         background-color: lightseagreen;
