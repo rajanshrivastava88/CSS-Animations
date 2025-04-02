@@ -32,8 +32,9 @@ body {
     /* animation-timing-function: ease-in; */
     /* animation-timing-function: ease-out; This will make the animation start fast and slow down at the end */
     /* animation-timing-function: linear; This will make the animation run at a constant speed */
-    
-    animation-timing-function: cubic-bezier(0,1,.86,-0.02);
+
+    /* animation-timing-function: cubic-bezier(0,1,.86,-0.02); */
+    animation-direction: normal; /* reverse; alternate; */
 }
 
 /* @keyframes move {
