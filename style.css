@@ -58,11 +58,13 @@ body {
         left: 65%;
         background-color: lightgreen;
         top: 0;
+        rotate: 360deg;
     }
 
     100% {
         left: 65%;
         background-color: lightseagreen;
         top: 50%;
+        rotate: 360deg;
     }
 }
