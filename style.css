@@ -1,7 +1,7 @@
-body {
+/* body {
     height: 100%;
     width: 100%;
-}
+} */
 
 /* #box {
     height: 200px;
@@ -13,7 +13,7 @@ body {
     animation-delay: 1s;
 } */
 
-#box {
+/* #box {
     height: 200px;
     width: 200px;
     background-color: lightseagreen;
@@ -21,7 +21,8 @@ body {
     animation-name: myanimation_tutorial;
     animation-duration: 2s;
     animation-delay: 1s;
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;  */
+
     /* animation-fill-mode: backwards; This will make the animation go back to its original state after it ends */
     /* animation-fill-mode: both; This will make the animation go back to its original state after it ends and also apply the styles at the end of the animation */
 
@@ -34,8 +35,8 @@ body {
     /* animation-timing-function: linear; This will make the animation run at a constant speed */
 
     /* animation-timing-function: cubic-bezier(0,1,.86,-0.02); */
-    animation-direction: normal; /* reverse; alternate; */
-}
+    /* animation-direction: normal;  reverse; alternate; 
+} */
 
 /* @keyframes move {
      from {
@@ -60,7 +61,7 @@ body {
 } */
 
 
-
+/* 
 @keyframes myanimation_tutorial {
     0% {
         left: 0;
@@ -82,4 +83,4 @@ body {
         top: 50%;
         rotate: 360deg;
     }
-}
+} */
