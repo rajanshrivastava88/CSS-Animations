@@ -21,6 +21,7 @@ body {
     animation-name: myanimation_tutorial;
     animation-duration: 2s;
     animation-delay: 1s;
+    animation-fill-mode: forwards; 
 }
 
 /* @keyframes move {
@@ -52,6 +53,7 @@ body {
         left: 0;
         background-color: lightseagreen;
         top: 0;
+        rotate: 0deg;
     }
 
     50% {
@@ -63,7 +65,7 @@ body {
 
     100% {
         left: 65%;
-        background-color: lightseagreen;
+        background-color: salmon;
         top: 50%;
         rotate: 360deg;
     }
