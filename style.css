@@ -23,20 +23,21 @@
     animation-delay: 1s;
     animation-fill-mode: forwards;  */
 
-    /* animation-fill-mode: backwards; This will make the animation go back to its original state after it ends */
-    /* animation-fill-mode: both; This will make the animation go back to its original state after it ends and also apply the styles at the end of the animation */
+/* animation-fill-mode: backwards; This will make the animation go back to its original state after it ends */
+/* animation-fill-mode: both; This will make the animation go back to its original state after it ends and also apply the styles at the end of the animation */
 
-    /* animation-iteration-count: infinite; */
-    /* animation-iteration-count: 3; This will make the animation run 3 times */
-    /* animation-iteration-count: infinite; This will make the animation run infinitely */
+/* animation-iteration-count: infinite; */
+/* animation-iteration-count: 3; This will make the animation run 3 times */
+/* animation-iteration-count: infinite; This will make the animation run infinitely */
 
-    /* animation-timing-function: ease-in; */
-    /* animation-timing-function: ease-out; This will make the animation start fast and slow down at the end */
-    /* animation-timing-function: linear; This will make the animation run at a constant speed */
+/* animation-timing-function: ease-in; */
+/* animation-timing-function: ease-out; This will make the animation start fast and slow down at the end */
+/* animation-timing-function: linear; This will make the animation run at a constant speed */
 
-    /* animation-timing-function: cubic-bezier(0,1,.86,-0.02); */
-    /* animation-direction: normal;  reverse; alternate; 
+/* animation-timing-function: cubic-bezier(0,1,.86,-0.02); */
+/* animation-direction: normal;  reverse; alternate; 
 } */
+
 
 /* @keyframes move {
      from {
@@ -95,23 +96,25 @@
     font-family: gilroy;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1{
+h1 {
     font-size: 100px;
     font-weight: 800;
     position: relative;
 }
 
-h1::after{
+h1::after {
     content: "";
     position: absolute;
     width: 0%;
@@ -121,7 +124,7 @@ h1::after{
     left: 0;
 }
 
-h1:hover::after{
+h1:hover::after {
     animation-name: straightline;
     animation-duration: 2s;
 }
@@ -131,10 +134,12 @@ h1:hover::after{
         width: 0;
         left: 0;
     }
+
     50% {
         width: 0;
         left: 0;
     }
+
     100% {
         width: 100%;
         left: 0;
