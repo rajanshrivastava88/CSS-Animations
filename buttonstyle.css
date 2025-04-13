@@ -31,6 +31,21 @@ html, body {
     border-radius: 10px;
 }
 
-.btn::before {
+/* glow */
 
+.btn::before {
+    content: "";
+    background: linear-gradient(45deg, #ff0000, #ff7300, #ffea00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+    position: absolute;
+    top:  -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    /* animation */
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
 }
